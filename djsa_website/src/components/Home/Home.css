@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.Home_container {
+    background-image: url(./Antariksh_HomePageS2.jpg);
+    height: 120vh;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+    background-repeat: repeat-x;
+}
+
+.star{
+    background-image: url(./Antariksh_HomePageS2.jpg);
+    height: 100vh;
+    width: 1000%;
+    position: absolute;
+    z-index: 1;
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    animation: bg 1500s linear infinite;
+}
+@keyframes bg {
+    100%{
+        transform: translateX(-3400px);
+    }
+}
+
+.Mars_rotate {
+    transform-style: preserve-3d;
+    /* width: 300px; */
+    /* bottom: -1000px;
+    transform: translateX(50%); */
+    /* padding-top: 200px; */
+    position: absolute;
+    z-index: 2;
+}
+
+.Mars {
+    position: absolute;
+    margin-left: 930px;
+    margin-top: 130px;
+    /* padding-top:100px; */
+    background-image: url(./M.jpg) !important;
+    z-index: 1000;
+    width: 550px;
+    height: 550px;
+    background: #fff;
+    border-radius:50%;
+    background-size: cover;
+    background-repeat: repeat-x;
+    box-shadow: inset 0 0 20px rgba(0,0,0,1),
+    0 0 50px #a3431d;
+    /* 
+    #ffa4ac 
+    fb913e
+    */
+    animation: animateMars 15s linear infinite;
+}
+@keyframes animateMars {
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: 474px 0;
+    }
+}
+
+.Antariksh_Logo {
+    position: absolute;
+    z-index: 2;
+}
+
+/* .achievement_container {
+    color: #fff;
+    position: absolute;
+    z-index: 2;
+} */
+
+.achievement_text {
+    font-size: 2rem;
+}
