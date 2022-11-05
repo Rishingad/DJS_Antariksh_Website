@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { startTransition } from 'react'
 import './Home.css'
 import Antariksh_HomePageS2 from './Antariksh_HomePageS2.jpg';
 import Mars1 from './Mars1.png'
@@ -9,7 +9,6 @@ function Home() {
   return (
     <div>
       <div className='Home_container'>
-
         <div className='star'></div>
 
         <div className='Mars_rotate'>
@@ -29,5 +28,3 @@ function Home() {
 }
 
 export default Home;
-
-
