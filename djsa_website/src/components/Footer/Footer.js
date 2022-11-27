@@ -17,10 +17,10 @@ function Footer() {
         <div className='starF'></div>
         
         <div className='iconBar'>
-          <LinkedInIcon sx={{ color: '#0A66C2' }} onClick={event =>  window.location.href='https://www.linkedin.com/company/djs-antariksh/mycompany/'}  className='icons'/>
-          <InstagramIcon sx={{ color: '#d62976' }} onClick={event =>  window.location.href='https://www.instagram.com/djs_antariksh/?hl=en'} className='icons'/>
-          <FacebookIcon sx={{ color: '#4267B2' }} onClick={event =>  window.location.href='https://www.facebook.com/people/DJS-Antariksh/100063880216755/'}  className='icons'/>
-          <YouTubeIcon sx={{ color: 'red' }} onClick={event =>  window.location.href='https://www.youtube.com/channel/UCoksi6M-WBSJKU75hEfsfjg'} className='icons'/>
+          <LinkedInIcon sx={{ color: '#FFF' }} onClick={event =>  window.location.href='https://www.linkedin.com/company/djs-antariksh/mycompany/'}  className='icons'></LinkedInIcon>
+          <InstagramIcon sx={{ color: '#FFF' }} onClick={event =>  window.location.href='https://www.instagram.com/djs_antariksh/?hl=en'} className='icons'/>
+          <FacebookIcon sx={{ color: '#FFF' }} onClick={event =>  window.location.href='https://www.facebook.com/people/DJS-Antariksh/100063880216755/'}  className='icons'/>
+          <YouTubeIcon sx={{ color: '#FFF' }} onClick={event =>  window.location.href='https://www.youtube.com/channel/UCoksi6M-WBSJKU75hEfsfjg'} className='icons'/>
         </div>
         <h1>#TODECIPHERUNIMAGINABLE</h1>
       </div>
