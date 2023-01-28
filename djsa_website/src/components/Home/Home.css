@@ -73,13 +73,3 @@
     position: absolute;
     z-index: 2;
 }
-
-/* .achievement_container {
-    color: #fff;
-    position: absolute;
-    z-index: 2;
-} */
-
-.achievement_text {
-    font-size: 2rem;
-}
