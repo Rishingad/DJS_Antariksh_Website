@@ -4,6 +4,7 @@ import About from './components/About/About'
 import Achievement from './components/Achievement/Achievement'
 import Department from './components/Department/Department'
 import Team from './components/Team/Team'
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Achievement />
       <Department />
       <Team />
+      <Footer />
     </div>
   );
 }
